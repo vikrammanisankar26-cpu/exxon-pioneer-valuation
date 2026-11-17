@@ -1,0 +1,103 @@
+{
+  "cost_structure": {
+    "2022": {
+      "sales": 398675.0,
+      "variable_costs": 269660.7,
+      "contribution_margin": 129014.3,
+      "cm_ratio": 0.3236,
+      "fixed_costs": 65468.3,
+      "operating_income": 63546.0,
+      "other_income": 15005.0,
+      "ebit": 78551.0,
+      "ebit_margin": 0.197,
+      "dol": 1.6424,
+      "dfl": 1.0103,
+      "interest_coverage": 98.4348,
+      "breakeven_sales": 202307.6086,
+      "margin_of_safety": 0.4926,
+      "free_cash_flow": 58390.0,
+      "shareholder_returns": 30094.0
+    },
+    "2023": {
+      "sales": 334697.0,
+      "variable_costs": 233105.5,
+      "contribution_margin": 101591.5,
+      "cm_ratio": 0.3035,
+      "fixed_costs": 57844.5,
+      "operating_income": 43747.0,
+      "other_income": 9885.0,
+      "ebit": 53632.0,
+      "ebit_margin": 0.1602,
+      "dol": 1.8942,
+      "dfl": 1.0161,
+      "interest_coverage": 63.1708,
+      "breakeven_sales": 190570.8708,
+      "margin_of_safety": 0.4306,
+      "free_cash_flow": 33450.0,
+      "shareholder_returns": 32689.0
+    },
+    "2024": {
+      "sales": 339247.0,
+      "variable_costs": 237624.7,
+      "contribution_margin": 101622.3,
+      "cm_ratio": 0.2996,
+      "fixed_costs": 62091.3,
+      "operating_income": 39531.0,
+      "other_income": 10338.0,
+      "ebit": 49869.0,
+      "ebit_margin": 0.147,
+      "dol": 2.0378,
+      "dfl": 1.0204,
+      "interest_coverage": 50.0693,
+      "breakeven_sales": 207280.1664,
+      "margin_of_safety": 0.389,
+      "free_cash_flow": 30716.0,
+      "shareholder_returns": 36333.0
+    },
+    "2025": {
+      "sales": 323905.0,
+      "variable_costs": 222142.2,
+      "contribution_margin": 101762.8,
+      "cm_ratio": 0.3142,
+      "fixed_costs": 68224.8,
+      "operating_income": 33538.0,
+      "other_income": 8333.0,
+      "ebit": 41871.0,
+      "ebit_margin": 0.1293,
+      "dol": 2.4304,
+      "dfl": 1.0146,
+      "interest_coverage": 69.4378,
+      "breakeven_sales": 217155.5209,
+      "margin_of_safety": 0.3296,
+      "free_cash_flow": 23612.0,
+      "shareholder_returns": 37504.0
+    }
+  },
+  "wacc": 0.08137,
+  "scenarios": {
+    "Worst": {
+      "npv_musd": -32825.8,
+      "irr": -0.0119,
+      "terminal_value_share": 0.387
+    },
+    "Base": {
+      "npv_musd": 6926.3,
+      "irr": 0.0956,
+      "terminal_value_share": 0.484
+    },
+    "Best": {
+      "npv_musd": 42596.1,
+      "irr": 0.1542,
+      "terminal_value_share": 0.537
+    }
+  },
+  "breakeven_wacc": 0.0893,
+  "sensitivities_npv_musd": {
+    "WACC 7%": 19680.6,
+    "Alternative starting FCFF": 4120.1,
+    "WACC 9%": -581.8,
+    "No terminal synergies": -1954.0,
+    "WACC 10%": -7647.7,
+    "No synergies at all": -11208.6
+  }
+}
